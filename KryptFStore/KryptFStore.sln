@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KryptFStore", "KryptFStore\KryptFStore.csproj", "{44583096-33D4-411E-A05B-8C93C9DDE152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{6E837D63-4775-4F9F-9167-A95B1BEFE042}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibPowerCrypt4", "..\Dependencies\PowerCrypt4\PowerCrypt4\LibPowerCrypt4.csproj", "{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KryptFStore.Demo", "KryptFStore.Demo\KryptFStore.Demo.csproj", "{AFF8A5C4-BB99-4A2D-A3C1-F8F4DC4482BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44583096-33D4-411E-A05B-8C93C9DDE152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44583096-33D4-411E-A05B-8C93C9DDE152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44583096-33D4-411E-A05B-8C93C9DDE152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44583096-33D4-411E-A05B-8C93C9DDE152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF8A5C4-BB99-4A2D-A3C1-F8F4DC4482BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF8A5C4-BB99-4A2D-A3C1-F8F4DC4482BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF8A5C4-BB99-4A2D-A3C1-F8F4DC4482BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF8A5C4-BB99-4A2D-A3C1-F8F4DC4482BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{027DD64A-53EC-4AB3-BCC8-3F5C210CDCDF} = {6E837D63-4775-4F9F-9167-A95B1BEFE042}
+	EndGlobalSection
+EndGlobal
