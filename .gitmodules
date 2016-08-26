@@ -1,0 +1,3 @@
+[submodule "Dependencies/PowerCrypt4"]
+	path = Dependencies/PowerCrypt4
+	url = https://github.com/exaphaser/PowerCrypt4.git
